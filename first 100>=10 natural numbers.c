@@ -5,7 +5,7 @@ int main()
   int k=100;
   while (k>=10)
     {
-      printf("%d\n",k);
+      printf("%d ",k);
       k=k-1;
     }
   printf("\nloop body finished");
