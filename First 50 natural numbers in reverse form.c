@@ -7,7 +7,7 @@ printf("\n The 50 natural num in reverse are:");
   
   for(a=num;a>=1;a--)
     {
- printf("\n%d",a);
+ printf("%d ",a);
       }
   
   return 0;
