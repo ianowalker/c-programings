@@ -1,4 +1,4 @@
-//Function of product of two numbers.c
+//Function of product of two numbers
 #include<stdio.h>
 int product();
 int main()
