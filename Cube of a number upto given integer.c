@@ -2,11 +2,11 @@
 #include<stdio.h>
 void main()
 {
-    int a,ctr;
+    int a,terms;
     printf("\nInput number of terms:");
-    scanf("%d",&ctr);
+    scanf("%d",&terms);
     
-    for(a=1;a<=ctr;a++)
+    for(a=1;a<=terms;a++)
     {
         printf("\nNumber is: %d :and cube of %d is : %d",a,a,(a*a*a));
     }
