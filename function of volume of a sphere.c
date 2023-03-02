@@ -1,7 +1,7 @@
 //fuction of a volume of a sphere
 #include<stdio.h>
 #define pi 3.142
-int area(int r);
+int volume(int r);
 int main()
 {
     int r,result;
@@ -14,7 +14,7 @@ int main()
     return 0;
 }
 
-int area(int r)
+int volume(int r)
 {
     int answer;
     answer= 4/3*pi*r*r*r;
