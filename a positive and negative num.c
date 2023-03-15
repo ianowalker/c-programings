@@ -6,15 +6,14 @@ int main()
   printf("\nEnter the value of a:");
   scanf("%d",&a);
 
-  if (a==0){
-    printf("\na is neither positive nor negative:");
-  }
-
   if (a>0){
     printf("\na is positive:");
   }
-  else{
+  else if(a<0){
     printf("\na is negative:");
   }
+  else{
+    printf("\n0 is neither positive nor negative:");
+  }
   return 0;
-}
+  }
