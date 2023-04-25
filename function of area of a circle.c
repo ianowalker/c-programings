@@ -1,23 +1,19 @@
-//fuction of an area of a circle
+//Function of product of two numbers
 #include<stdio.h>
-#define pi 3.142
-int area(int r);
+int product(int a,int b);
 int main()
 {
-    int r,result;
-    printf("\nEnter the radius:");
-    scanf("%d",&r);
+    int result;
+    result= 4*5;
     
-    result=pi*r*r;
-    printf("\nArea of a circle is: %d",result);
-    
+    printf("\nThe product of two numbers is: %d", result);
     return 0;
 }
 
-int area(int r)
+int product(int a,int b)
 {
-    int answer;
-    answer= pi*r*r;
-    
+   int answer;
+   answer = a*b;
+   
     return answer;
 }
